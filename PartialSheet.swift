@@ -20,7 +20,7 @@ struct PartialSheet<Content: View>: View {
         content()
             .frame(height: sheetHeight())
             .animation(.spring(), value: sheetSize)
-    }
+    } 
     
     private func sheetHeight() -> CGFloat {
         switch sheetSize {
